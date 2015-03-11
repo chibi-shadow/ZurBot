@@ -27,7 +27,6 @@
 * **!coolDown [user/group] [command] [time]**
 * **!active [function]**
 * **!disable [function]**
-* **!lock [time]**
 * **!mute [user/group]**
 * **!unmute [user/group]**
 * **!maxLenght [time]**

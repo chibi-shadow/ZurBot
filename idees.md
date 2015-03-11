@@ -8,9 +8,9 @@
 * **!perm [user/group/bool] [command]**
 * **!cyril**
 * **!citation**
-* **!op [int/link]**
+* **!op [int/link] [opGroup] [string]**
 * **!link**
-* **!deop [code/link]**
+* **!deop [code/link/opGroup]**
 * **!cookie**
 * **!emoji**
 * **!commands**
@@ -32,7 +32,7 @@
 * **!unmute [user/group]**
 * **!maxlenght [time]**
 * **!move [user] [pos]**
-* **!motd [randomrate] [string] [string] [string] [string] ..**
+* **!motd [randomrate] [string] [string] [string] [string] ...**
 * **!chatLvl [int]**
 * **!kill**
 * **!skip**
@@ -40,3 +40,7 @@
 * **!voteratio [user/group/all]**
 * **!help**
 * **!dispCmd [command] [disp] [user/group/all]**
+* **!c [command]**
+* **!c ['arg'] ['arg'] ['arg'] ... end** (this used to send a command wich is to long to be send in one msg if an arg is too long to be send in one command you can also split it with if it start with ' and end with ')
+* **!dc [user]**
+* **!exchange [user]**

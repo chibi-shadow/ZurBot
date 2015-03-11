@@ -1,4 +1,4 @@
-user= {
+var user= {
 	"heritage": "false",
 	"perm": [
 		"chat",
@@ -19,7 +19,7 @@ user= {
 	]
 }
 
-dj= {
+var dj= {
 	"heritage": "user",
 	"perm": [
 		"lang",
@@ -29,7 +29,7 @@ dj= {
 	]
 }
 
-bouncer= {
+var bouncer= {
 	"heritage": "dj",
 	"perm": [
 		"ban.hour",
@@ -66,7 +66,7 @@ bouncer= {
 	]
 }
 
-manager= {
+var manager= {
 	"heritage": "bouncer",
 	"perm": [
 		"ban.perma",
@@ -88,7 +88,7 @@ manager= {
 	]
 }
 
-coHost= {
+var coHost= {
 	"heritage": "manager",
 	"perm": [
 		"perm",
@@ -101,7 +101,7 @@ coHost= {
 	]
 }
 
-host= {
+var host= {
 	"heritage": "coHost",
 	"perm": [
 	]

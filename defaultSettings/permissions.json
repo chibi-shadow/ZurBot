@@ -1,6 +1,6 @@
 user= {
-	heritage: "false"
-	perm: [
+	"heritage": "false"
+	"perm": [
 		"chat"
 		"rules",
 		"roulette.join",
@@ -20,8 +20,8 @@ user= {
 }
 
 dj= {
-	heritage: "user"
-	perm: [
+	"heritage": "user"
+	"perm": [
 		"lang"
 		"link"
 		"kill.user"
@@ -30,8 +30,8 @@ dj= {
 }
 
 bouncer= {
-	heritage: "dj"
-	perm: [
+	"heritage": "dj"
+	"perm": [
 		"ban.hour"
 		"ban.day"
 		"kick"
@@ -67,8 +67,8 @@ bouncer= {
 }
 
 manager= {
-	heritage: "bouncer"
-	perm: [
+	"heritage": "bouncer"
+	"perm": [
 		"ban.perma"
 		"roulette.create"
 		"op.rm"
@@ -88,8 +88,8 @@ manager= {
 	]
 	
 coHost= {
-	heritage: "manager"
-	perm: [
+	"heritage": "manager"
+	"perm": [
 		"perm"
 		"toggle.wDb"
 		"toggle.rDb"
@@ -101,7 +101,7 @@ coHost= {
 }
 
 host= {
-	heritage: "coHost"
-	perm: [
+	"heritage": "coHost"
+	"perm": [
 	]
 }

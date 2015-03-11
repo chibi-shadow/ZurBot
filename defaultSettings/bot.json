@@ -1,24 +1,24 @@
-"Settings":{
-	"version": "b0.1.0"
-	"language": "en"
-	"voteskip": true
-	"voteskipOnMeh": true
-	"voteSkipType": "%"
-	"voteSkipNb": 25
-	"DJBot": true
-	"autoSkip": false
-	"lockWaitList": false
-	"timeGuard": true
-	"maxLenght": 7
-	"MOTD": false
-	"MOTDStr": "Hello World"
-	"welcomeMsg": true
-	"frstWelcomeMsgStr": "Welcome in the room @"
-	"welcomeMsgStr": "hello @"
-	"quitMsg": false
-	"quitMsgStr": "goodbye @"
-	"extGroup": false
-	"dc": true
-	"wDb": false
+var Settings={
+	"version": "b0.1.0",
+	"language": "en",
+	"voteskip": true,
+	"voteskipOnMeh": true,
+	"voteSkipType": "%",
+	"voteSkipNb": 25,
+	"DJBot": true,
+	"autoSkip": false,
+	"lockWaitList": false,
+	"timeGuard": true,
+	"maxLenght": 7,
+	"MOTD": false,
+	"MOTDStr": "Hello World",
+	"welcomeMsg": true,
+	"frstWelcomeMsgStr": "Welcome in the room @",
+	"welcomeMsgStr": "hello @",
+	"quitMsg": false,
+	"quitMsgStr": "goodbye @",
+	"extGroup": false,
+	"dc": true,
+	"wDb": false,
 	"rDb": false
 }

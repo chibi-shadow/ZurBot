@@ -1,107 +1,107 @@
 user= {
-	"heritage": "false"
+	"heritage": "false",
 	"perm": [
-		"chat"
+		"chat",
 		"rules",
 		"roulette.join",
-		"citation.r"
-		"cyril"
-		"cookie"
-		"emoji"
-		"commands"
-		"voteRatio.me"
-		"help"
-		"switchPos.user"
-		"switchPos.accept"
-		"dc.me"
-		"eta.me"
-		"ping"
+		"citation.r",
+		"cyril",
+		"cookie",
+		"emoji",
+		"commands",
+		"voteRatio.me",
+		"help",
+		"switchPos.user",
+		"switchPos.accept",
+		"dc.me",
+		"eta.me",
+		"ping",
 	]
 }
 
 dj= {
-	"heritage": "user"
+	"heritage": "user",
 	"perm": [
-		"lang"
-		"link"
-		"kill.user"
-		"afk"
+		"lang",
+		"link",
+		"kill.user",
+		"afk",
 	]
 }
 
 bouncer= {
-	"heritage": "dj"
+	"heritage": "dj",
 	"perm": [
-		"ban.hour"
-		"ban.day"
-		"kick"
-		"roulette.close"
-		"citation.w"
-		"op.add"
-		"toggle.voteskip"
-		"toggle.voteskipOnMeh"
-		"toggle.DJBot"
-		"toggle.autoSkip"
-		"toggle.lockWaitlist"
-		"toggle.timeGuard"
-		"toggle.MOTD"
-		"toggle.welcomeMsg"
-		"toggle.frstWelcomeMsg"
-		"toggle.quitMsg"
-		"toggle.dc"
-		"status"
-		"clearChat.user"
-		"modify.coolDown"
-		"modify.maxLenght"
-		"modify.voteSkipType"
-		"modify.voteSkipNb"
-		"mute.user"
-		"unmute.user"
-		"skip"
-		"voteratio.user"
-		"voteratio.group"
-		"voteratio.all"
-		"dc.user"
-		"eta.user"
+		"ban.hour",
+		"ban.day",
+		"kick",
+		"roulette.close",
+		"citation.w",
+		"op.add",
+		"toggle.voteskip",
+		"toggle.voteskipOnMeh",
+		"toggle.DJBot",
+		"toggle.autoSkip",
+		"toggle.lockWaitlist",
+		"toggle.timeGuard",
+		"toggle.MOTD",
+		"toggle.welcomeMsg",
+		"toggle.frstWelcomeMsg",
+		"toggle.quitMsg",
+		"toggle.dc",
+		"status",
+		"clearChat.user",
+		"modify.coolDown",
+		"modify.maxLenght",
+		"modify.voteSkipType",
+		"modify.voteSkipNb",
+		"mute.user",
+		"unmute.user",
+		"skip",
+		"voteratio.user",
+		"voteratio.group",
+		"voteratio.all",
+		"dc.user",
+		"eta.user",
 	]
 }
 
 manager= {
-	"heritage": "bouncer"
+	"heritage": "bouncer",
 	"perm": [
-		"ban.perma"
-		"roulette.create"
-		"op.rm"
-		"toggle.extGroup"
-		"modify.voteSkipWeight"
-		"modify.MOTD"
-		"modify.chatLvl"
-		"modify.language"
-		"modify.welcomeMsg"
-		"modify.frstWelcomeMsg"
-		"modify.quitMsg"
-		"delay"
-		"clearChat.all"
-		"g"
-		"move"
-		"unban"
+		"ban.perma",
+		"roulette.create",
+		"op.rm",
+		"toggle.extGroup",
+		"modify.voteSkipWeight",
+		"modify.MOTD",
+		"modify.chatLvl",
+		"modify.language",
+		"modify.welcomeMsg",
+		"modify.frstWelcomeMsg",
+		"modify.quitMsg",
+		"delay",
+		"clearChat.all",
+		"g",
+		"move",
+		"unban",
 	]
 	
 coHost= {
-	"heritage": "manager"
+	"heritage": "manager",
 	"perm": [
-		"perm"
-		"toggle.wDb"
-		"toggle.rDb"
-		"modify.description"
-		"modify.title"
-		"kill.bot"
-		"alias"
+		"perm",
+		"toggle.wDb",
+		"toggle.rDb",
+		"modify.description",
+		"modify.title",
+		"kill.bot",
+		"alias",
 	]
 }
 
 host= {
-	"heritage": "coHost"
+	"heritage": "coHost",
 	"perm": [
 	]
 }

@@ -22,7 +22,7 @@
 * **!title [string]**
 * **!clearChat [user]**
 * **!welcome [user/group/default] [string]**
-* **!gcreate [group] [staffgroup/new]**
+* **!gCreate [group] [staffgroup/new]**
 * **!gAdd [user] [group]**
 * **!coolDown [user/group] [command] [time]**
 * **!active [function]**
@@ -30,14 +30,14 @@
 * **!lock [time]**
 * **!mute [user/group]**
 * **!unmute [user/group]**
-* **!maxlenght [time]**
+* **!maxLenght [time]**
 * **!move [user] [pos]**
 * **!motd [randomrate] [string] [string] [string] [string] ...**
 * **!chatLvl [int]**
 * **!kill**
 * **!skip**
 * **!unban**
-* **!voteratio [user/group/all]**
+* **!voteRatio [user/group/all]**
 * **!help**
 * **!dispCmd [command] [disp] [user/group/all]**
 * **!c [command]**

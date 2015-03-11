@@ -13,5 +13,6 @@ function init() {
 		document.querySelector('div.item.s-vo').click();
 	}
 	API.sendChat(endInit);
+	API.sendChat(endInitPriv);
 }
 

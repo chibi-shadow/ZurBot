@@ -15,7 +15,7 @@ var user= {
 		"switchPos.accept",
 		"dc.me",
 		"eta.me",
-		"ping",
+		"ping"
 	]
 }
 
@@ -25,7 +25,7 @@ var dj= {
 		"lang",
 		"link",
 		"kill.user",
-		"afk",
+		"afk"
 	]
 }
 
@@ -62,7 +62,7 @@ var bouncer= {
 		"voteratio.group",
 		"voteratio.all",
 		"dc.user",
-		"eta.user",
+		"eta.user"
 	]
 }
 
@@ -84,7 +84,7 @@ var manager= {
 		"clearChat.all",
 		"g",
 		"move",
-		"unban",
+		"unban"
 	]
 }
 
@@ -97,7 +97,7 @@ var coHost= {
 		"modify.description",
 		"modify.title",
 		"kill.bot",
-		"alias",
+		"alias"
 	]
 }
 

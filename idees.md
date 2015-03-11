@@ -4,22 +4,19 @@
 * **!kick [user] [time] [unit]**
 * **!rules**
 * **!lang [user]**
-* **!roulette [join/create] [command]**
+* **!roulette [join/create/close] [command]**
 * **!perm [user/group/bool] [command]**
 * **!cyril**
 * **!citation**
-* **!op [int/link] [opGroup] [string]**
+* **!op [add/rm] [int/link] [opGroup] [string]**
 * **!link**
-* **!deop [code/link/opGroup]**
-* **!cookie**
+* **!cookie [user]**
 * **!emoji**
 * **!commands**
 * **!toggle [function]**
 * **!voteskipWeight [user/group] [int]**
 * **!status**
-* **!description [string]**
 * **!delay [command] [time]**
-* **!title [string]**
 * **!clearChat [user/all]**
 * **!welcome [user/group/default] [string]**
 * **!gCreate [group] [staffgroup/new]**
@@ -31,7 +28,6 @@
 * **!disable [function]**
 * **!mute [user/group]**
 * **!unmute [user/group]**
-* **!maxLenght [time]**
 * **!move [user] [pos]**
 * **!motd [randomrate] [string] [string] [string] [string] ...**
 * **!chatLvl [int]**
@@ -40,7 +36,7 @@
 * **!unban**
 * **!voteRatio [user/group/all/me]**
 * **!help**
-* **!dispCmd [command] [disp] [user/group/all]**
+* **!alias [command] [disp] [user/group/all]**
 * **!l [command]**
 * **!l ['arg'] ['arg'] ['arg'] ... end** (this used to send a command wich is to long to be send in one msg if an arg is too long to be send in one command you can also split it if it start with ' and end with ')
 * **!dc [user]**
@@ -49,5 +45,5 @@
 * **!language [link/lang]** 
 * **!ping**
 * **!voteskip**
-* **!cookie [user]**
 * **!afk**
+* **!modify [function] [value]**

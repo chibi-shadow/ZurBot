@@ -33,7 +33,7 @@
 * **!move [user] [pos]**
 * **!motd [randomrate] [string] [string] [string] [string] ...**
 * **!chatLvl [int]**
-* **!kill**
+* **!kill [user]** (can kill an user only if multiple bot are running in the room)
 * **!skip**
 * **!unban**
 * **!voteRatio [user/group/all]**

@@ -86,7 +86,8 @@ manager= {
 		"move",
 		"unban",
 	]
-	
+}
+
 coHost= {
 	"heritage": "manager",
 	"perm": [

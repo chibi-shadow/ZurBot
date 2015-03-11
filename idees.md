@@ -39,8 +39,8 @@
 * **!voteRatio [user/group/all]**
 * **!help**
 * **!dispCmd [command] [disp] [user/group/all]**
-* **!c [command]**
-* **!c ['arg'] ['arg'] ['arg'] ... end** (this used to send a command wich is to long to be send in one msg if an arg is too long to be send in one command you can also split it if it start with ' and end with ')
+* **!l [command]**
+* **!l ['arg'] ['arg'] ['arg'] ... end** (this used to send a command wich is to long to be send in one msg if an arg is too long to be send in one command you can also split it if it start with ' and end with ')
 * **!dc [user]**
 * **!switchPos [user]**
 * **!eta**

@@ -23,6 +23,8 @@
 * **!clearChat [user]**
 * **!welcome [user/group/default] [string]**
 * **!gCreate [group] [staffgroup/new]**
+* **!gDel [group]**
+* **!gRm [user] [group]**
 * **!gAdd [user] [group]**
 * **!coolDown [user/group] [command] [time]**
 * **!active [function]**
@@ -44,3 +46,4 @@
 * **!dc [user]**
 * **!switchPos [user]**
 * **!eta**
+* **!language [link/lang]** 

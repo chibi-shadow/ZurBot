@@ -1,18 +1,20 @@
-init()
-
 function init() {
-	API.setVolume(0);
-	if (document.querySelector('class.icon.icon-emoji-on')!==null){
+	document.getElementById("playback").removeChild(document.getElementById("playback-container"));
+	if (document.querySelector("#chat-emoji-button .icon-emoji-on")){
 		$("#chat-emoji-button").click();
 	}
-	if (document.querySelector('class.icon.icon-chat-sound-on')!==null){
+	if (document.querySelector("#chat-sound-button .icon-chat-sound-on")) {
 		$("#chat-sound-button").click();
 	}
-	document.querySelector('div.item.s-av.selected').click();
-	if (document.querySelector('div.item.s-vo.selected')!==null){
-		document.querySelector('div.item.s-vo').click();
-	}
+	API.sendChat("/cap 1")
 	API.sendChat(endInit);
-	API.sendChat(endInitPriv);
+	API.chatLog(endInitPriv);
 }
 
+var nomEvenement = new CustomEvent( 
+	"Bot.chatCommand",
+	{
+		detail: {
+			
+
+init()

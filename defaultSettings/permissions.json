@@ -1,7 +1,8 @@
 var user= {
 	"heritage": "false",
 	"perm": [
-		"chat",
+		"chat.chat",
+		"chat.commands",
 		"rules",
 		"roulette.join",
 		"citation.r",
@@ -15,7 +16,9 @@ var user= {
 		"switchPos.accept",
 		"dc.me",
 		"eta.me",
-		"ping"
+		"ping",
+		"link.user",
+		"link.music"
 	]
 }
 
@@ -23,7 +26,6 @@ var dj= {
 	"heritage": "user",
 	"perm": [
 		"lang",
-		"link",
 		"kill.user",
 		"afk"
 	]

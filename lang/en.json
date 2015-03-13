@@ -1,5 +1,5 @@
 {
-	"endInit": "BONSWAG ZurBot version @1 running", 
+	"endInit": "BONSWAG ZurBot version @1 running",
 	"ban": "@1 used ban hammer on @2 for @3",
 	"kick": "@1 used kick on @2 for @3"
 }

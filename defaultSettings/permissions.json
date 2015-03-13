@@ -26,7 +26,7 @@
 			"eta.me",
 			"ping",
 			"link.user",
-			"link.music"			
+			"link.music"		
 		]
 	},
 
@@ -148,7 +148,7 @@
 		"perm": [
 		]
 	},
-	
+
 	"disable": [
-	]	
-}	
+	]
+}

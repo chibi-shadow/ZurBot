@@ -8,7 +8,7 @@
 		"promoteOnJoin": true,
 		"joinOnPromote": true,
 		"perm": [
-			"join"
+			"join",
 			"chat.chat",
 			"chat.commands",
 			"rules",

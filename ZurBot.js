@@ -7,8 +7,7 @@ function init() {
 		$("#chat-sound-button").click();
 	}
 	API.sendChat("/cap 1")
-	API.sendChat(endInit);
-	API.chatLog(endInitPriv);
+	// affichage fin init
 }
 
 var nomEvenement = new CustomEvent( 

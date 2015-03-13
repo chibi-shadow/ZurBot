@@ -1,4 +1,4 @@
-var Settings={
+{
 	"version": "b0.1.0",
 	"language": "en",
 	"voteskip": true,
@@ -13,11 +13,12 @@ var Settings={
 	"MOTD": false,
 	"MOTDStr": "Hello World",
 	"welcomeMsg": true,
-	"frstWelcomeMsgStr": "Welcome in the room @",
-	"welcomeMsgStr": "hello @",
+	"frstWelcomeMsgStr": "Welcome in the room @1",
+	"welcomeMsgStr": "hello @1",
 	"quitMsg": false,
-	"quitMsgStr": "goodbye @",
+	"quitMsgStr": "goodbye @1",
 	"extGroup": false,
+	"openHeritedGroup": true,
 	"dc": true,
 	"wDb": false,
 	"rDb": false

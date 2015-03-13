@@ -1,110 +1,154 @@
-var user= {
-	"heritage": "false",
-	"perm": [
-		"chat.chat",
-		"chat.commands",
-		"rules",
-		"roulette.join",
-		"citation.r",
-		"cyril",
-		"cookie",
-		"emoji",
-		"commands",
-		"voteRatio.me",
-		"help",
-		"switchPos.user",
-		"switchPos.accept",
-		"dc.me",
-		"eta.me",
-		"ping",
-		"link.user",
-		"link.music"
-	]
-}
+{
+	"user": {
+		"heritage": null,
+		"cooldown": 0,
+		"default": true,
+		"open": false,
+		"group": API.ROLE.NONE,
+		"promoteOnJoin": true,
+		"joinOnPromote": true,
+		"perm": [
+			"join"
+			"chat.chat",
+			"chat.commands",
+			"rules",
+			"roulette.join",
+			"citation.r",
+			"cyril",
+			"cookie",
+			"emoji",
+			"commands",
+			"voteRatio.me",
+			"help",
+			"switchPos.user",
+			"switchPos.accept",
+			"dc.me",
+			"eta.me",
+			"ping",
+			"link.user",
+			"link.music"			
+		]
+	},
 
-var dj= {
-	"heritage": "user",
-	"perm": [
-		"lang",
-		"kill.user",
-		"afk"
-	]
-}
+	"dj": {
+		"heritage": "user",
+		"cooldown": 0,
+		"default": false,
+		"open": false,
+		"group": API.ROLE.DJ,
+		"promoteOnJoin": true,
+		"joinOnPromote": true,
+		"perm": [
+			"lang",
+			"kill.user",
+			"afk",
+			"g.join",
+			"g.list"
+		]
+	},
 
-var bouncer= {
-	"heritage": "dj",
-	"perm": [
-		"ban.hour",
-		"ban.day",
-		"kick",
-		"roulette.close",
-		"citation.w",
-		"op.add",
-		"toggle.voteskip",
-		"toggle.voteskipOnMeh",
-		"toggle.DJBot",
-		"toggle.autoSkip",
-		"toggle.lockWaitlist",
-		"toggle.timeGuard",
-		"toggle.MOTD",
-		"toggle.welcomeMsg",
-		"toggle.frstWelcomeMsg",
-		"toggle.quitMsg",
-		"toggle.dc",
-		"status",
-		"clearChat.user",
-		"modify.coolDown",
-		"modify.maxLenght",
-		"modify.voteSkipType",
-		"modify.voteSkipNb",
-		"mute.user",
-		"unmute.user",
-		"skip",
-		"voteratio.user",
-		"voteratio.group",
-		"voteratio.all",
-		"dc.user",
-		"eta.user"
-	]
-}
+	"bouncer": {
+		"heritage": "dj",
+		"cooldown": 0,
+		"default": false,
+		"open": false,
+		"group": API.ROLE.BOUNCER,
+		"promoteOnJoin": true,
+		"joinOnPromote": true,
+		"perm": [
+			"ban.hour",
+			"ban.day",
+			"kick",
+			"roulette.close",
+			"citation.w",
+			"op.add",
+			"toggle.voteskip",
+			"toggle.voteskipOnMeh",
+			"toggle.DJBot",
+			"toggle.autoSkip",
+			"toggle.lockWaitlist",
+			"toggle.timeGuard",
+			"toggle.MOTD",
+			"toggle.welcomeMsg",
+			"toggle.frstWelcomeMsg",
+			"toggle.quitMsg",
+			"toggle.dc",
+			"status",
+			"clearChat.user",
+			"modify.coolDown",
+			"modify.maxLenght",
+			"modify.voteSkipType",
+			"modify.voteSkipNb",
+			"mute.user",
+			"unmute.user",
+			"skip",
+			"voteratio.user",
+			"voteratio.group",
+			"voteratio.all",
+			"dc.user",
+			"eta.user"
+		]
+	},
 
-var manager= {
-	"heritage": "bouncer",
-	"perm": [
-		"ban.perma",
-		"roulette.create",
-		"op.rm",
-		"toggle.extGroup",
-		"modify.voteSkipWeight",
-		"modify.MOTD",
-		"modify.chatLvl",
-		"modify.language",
-		"modify.welcomeMsg",
-		"modify.frstWelcomeMsg",
-		"modify.quitMsg",
-		"delay",
-		"clearChat.all",
-		"g",
-		"move",
-		"unban"
-	]
-}
+	"manager": {
+		"heritage": "bouncer",
+		"cooldown": 0,
+		"default": false,
+		"open": false,
+		"group": API.ROLE.MANAGER,
+		"promoteOnJoin": true,
+		"joinOnPromote": true,
+		"perm": [
+			"ban.perma",
+			"roulette.create",
+			"op.rm",
+			"toggle.extGroup",
+			"modify.voteSkipWeight",
+			"modify.MOTD",
+			"modify.chatLvl",
+			"modify.language",
+			"modify.welcomeMsg",
+			"modify.frstWelcomeMsg",
+			"modify.quitMsg",
+			"delay",
+			"clearChat.all",
+			"g",
+			"move",
+			"unban"
+		]
+	},
 
-var coHost= {
-	"heritage": "manager",
-	"perm": [
-		"perm",
-		"toggle.wDb",
-		"toggle.rDb",
-		"modify.description",
-		"modify.title",
-		"kill.bot",
-		"alias"
-	]
-}
+	"coHost": {
+		"heritage": "manager",
+		"cooldown": 0,
+		"default": false,
+		"open": false,
+		"group": API.ROLE.COHOST,
+		"promoteOnJoin": false,
+		"joinOnPromote": false,
+		"perm": [
+			"perm",
+			"toggle.wDb",
+			"toggle.rDb",
+			"modify.description",
+			"modify.title",
+			"kill.bot",
+			"alias"
+		]
+	},
 
-var host= {
-	"heritage": "coHost",
-	"perm": [
-	]
-}
+	"host": {
+		"heritage": "coHost",
+		"cooldown": 0,
+		"default": false,
+		"open": false,
+		"group": API.ROLE.HOST,
+		"promoteOnJoin": false,
+		"joinOnPromote": false,
+		"perm": [
+		]
+	},
+	
+	"disable": [
+	]	
+}	

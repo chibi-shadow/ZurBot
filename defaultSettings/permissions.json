@@ -4,7 +4,7 @@
 		"cooldown": 0,
 		"default": true,
 		"open": false,
-		"group": API.ROLE.NONE,
+		"group": "API.ROLE.NONE",
 		"promoteOnJoin": true,
 		"joinOnPromote": true,
 		"perm": [
@@ -35,7 +35,7 @@
 		"cooldown": 0,
 		"default": false,
 		"open": false,
-		"group": API.ROLE.DJ,
+		"group": "API.ROLE.DJ",
 		"promoteOnJoin": true,
 		"joinOnPromote": true,
 		"perm": [
@@ -52,7 +52,7 @@
 		"cooldown": 0,
 		"default": false,
 		"open": false,
-		"group": API.ROLE.BOUNCER,
+		"group": "API.ROLE.BOUNCER",
 		"promoteOnJoin": true,
 		"joinOnPromote": true,
 		"perm": [
@@ -95,7 +95,7 @@
 		"cooldown": 0,
 		"default": false,
 		"open": false,
-		"group": API.ROLE.MANAGER,
+		"group": "API.ROLE.MANAGER",
 		"promoteOnJoin": true,
 		"joinOnPromote": true,
 		"perm": [
@@ -123,7 +123,7 @@
 		"cooldown": 0,
 		"default": false,
 		"open": false,
-		"group": API.ROLE.COHOST,
+		"group": "API.ROLE.COHOST",
 		"promoteOnJoin": false,
 		"joinOnPromote": false,
 		"perm": [
@@ -142,7 +142,7 @@
 		"cooldown": 0,
 		"default": false,
 		"open": false,
-		"group": API.ROLE.HOST,
+		"group": "API.ROLE.HOST",
 		"promoteOnJoin": false,
 		"joinOnPromote": false,
 		"perm": [

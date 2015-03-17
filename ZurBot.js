@@ -25,7 +25,7 @@ function printChat(txt) {
 		txt[0] = txt[0] + arguments[i + 1];
 		txt = txt.join('');
 	}
-	API.sendChat(txt);
+	API.sendChat("/em " + txt);
 }
 
 /*var BOTAPI.CHATCOMMAND = new CustomEvent(

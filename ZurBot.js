@@ -7,21 +7,20 @@ function init() {
 		$("#chat-sound-button").click();
 	}
 	API.sendChat("/cap 1");
-	// affichage fin init
+	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/defaultSettings/settings.json', function(data){v=data.version;});
+	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/lang/en.json', function(data){printChat(data.endInit,v);});
 }
 
-function printChat(txt) { // a corriger 
-	for (var i = 0; i < arguments.lenght; i++) {
-		txt = txt.split("@" + (i));
-		txt[2] = txt[1];
-		txt[1] = arguments[i + 1];
+function printChat(txt) {
+	for (var i = arguments.length - 2; i >= 0; i--) {
+		txt = txt.split("%" + i);
+		txt[0] = txt[0] + arguments[i + 1];
 		txt = txt.join('');
 	}
 	API.sendChat(txt);
 }
 
 /*var BOTAPI.CHATCOMMAND = new CustomEvent(
-		"Bot.chatCommand", {
-		detail : {
-
-			init()*/
+"Bot.chatCommand", {
+detail : {
+init()*/

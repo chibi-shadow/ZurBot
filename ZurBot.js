@@ -7,8 +7,16 @@ function init() {
 		$("#chat-sound-button").click();
 	}
 	API.sendChat("/cap 1");
-	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/defaultSettings/settings.json', function(data){v=data.version;});
-	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/lang/en.json', function(data){printChat(data.endInit,v);});
+	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/defaultSettings/permissions.json', function (data) {
+		permissions = data;
+	});
+	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/defaultSettings/settings.json', function (data) {
+		settings = data;
+	});
+	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/lang/en.json', function (data) {
+		lang = data;
+	});
+	printChat(lang.endInit, settings.version);
 }
 
 function printChat(txt) {

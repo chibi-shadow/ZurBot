@@ -9,16 +9,18 @@ BUT you can participate to the development:
 	* you can also help me to write functions for the bot BUT please contact me before, I'll answer if I need help
 
 if you want to help to traduce the bot here is a tutorial with detailed description for all variables:
-	* endInit: *$var0 
-	* ban: * $var0
-		  * $var1 
-		  * $var2
-	* kick: * $var0
-		   * $var1
-		   * $var2
-	* eta: * $var0
-		  * $var1
-	* link: * $var0
-		   * $var1
-	* move: * $var0
+	
+	| endInit | $var0 | the bot version |
+	| ban | $var0 | the user who used the command |
+	|  | $var1 | the banned user |
+	|  | $var2 | the ban time |
+	| kick | $var0 | the user who used the command |
+	|  | $var1 | the kicked user |
+	|  | $var2 | the kick time |
+	| eta | $var0 | the user who used the command |
+	|  | $var1 | the time |
+	| link | $var0 | the user who used the command |
+	|  | $var1 | the link |
+	| move | $var0 | the user who used the command |
+	
 

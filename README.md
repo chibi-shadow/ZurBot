@@ -10,7 +10,7 @@ BUT you can participate to the development:
  
 for any of this work you need to fork this project and when you've done you're changes just make a pull request 
 
-#####if you want to help to traduce the bot
+####if you want to help to traduce the bot
 
 the langs object are in the "lang" directory you can create a new JSON object in this directory or you can modify an existing one
 
@@ -41,7 +41,7 @@ here is a detailed description for all variables:
 	
 you can also correct any string which is not traduced in the .js file or this readme file if you find something wrong 
 
-#####if you want to help me to write some functions
+####if you want to help me to write some functions
 
 read the source code if you find a comment which say:
 

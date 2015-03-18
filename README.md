@@ -10,17 +10,17 @@ BUT you can participate to the development:
 
 if you want to help to traduce the bot here is a tutorial with detailed description for all variables:
 	
-	**endInit:** * $var0 = the bot version
-	**ban:** * $var0 = the user who used the command
-	         * $var1 = the banned user
-             * $var2 = the ban time 
-	**kick:** * $var0 = the user who used the command 
-		      * $var1 = the kicked user
-	          * $var2 = the kick time
-	**eta:** *$var0 = the user who used the command
-	         *$var1 = the time
-	**link:** *$var0 = the user who used the command
-	          *$var1 = the link
-	**move:** *$var0 = the user who used the command
+**endInit:** * $var0 = the bot version
+**ban:** * $var0 = the user who used the command
+         * $var1 = the banned user
+         * $var2 = the ban time 
+**kick:** * $var0 = the user who used the command 
+	      * $var1 = the kicked user
+          * $var2 = the kick time
+**eta:** *$var0 = the user who used the command
+         *$var1 = the time
+**link:** *$var0 = the user who used the command
+          *$var1 = the link
+**move:** *$var0 = the user who used the command
 	
 

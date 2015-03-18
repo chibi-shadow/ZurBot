@@ -39,12 +39,12 @@ here is a detailed description for all variables:
 - **move:**
  - "$var0" = the user who used the command
 	
-######if you want to help me to write some functions
+#####if you want to help me to write some functions
 
 read the source code if you find a comment which say:
 
-'''javascript
+```javascript
 //junk line
-'''
+```
 
 it mean that I don't know how to write this line properly (so you can send a pull request with your alternatives)

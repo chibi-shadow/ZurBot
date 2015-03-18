@@ -1,5 +1,6 @@
 # ZurBot
 
+<<<<<<< HEAD
 **A lil' bot for Plug.dj [WIP]**
 
 okay this bot is in an early development stage you can not use it at the moment. 
@@ -21,3 +22,6 @@ if you want to help to traduce the bot here is a tutorial with detailed descript
 	* link: * $var0
 		   * $var1
 	* move: * $var0
+=======
+A lil' bot for Plug.dj [WIP]
+>>>>>>> parent of a7b09a3... update  readme.md

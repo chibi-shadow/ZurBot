@@ -7,13 +7,13 @@ function init() {
 		$("#chat-sound-button").click();
 	}
 	API.sendChat("/cap 1");
-	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/defaultSettings/settings.json', function (data) {
+	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/defaultSettings/settings.json', function (data) { //cochonerie a corriger
 		settings = data;
 	});
-	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/defaultSettings/permissions.json', function (data) {
+	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/defaultSettings/permissions.json', function (data) { //cochonerie a corriger
 		permissions = data;
 	});
-	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/lang/' + settings.language + '.json', function (data) {
+	$.getJSON('https://github-raw-cors-proxy.herokuapp.com/zurbo/ZurBot/master/lang/' + settings.language + '.json', function (data) { //cochonerie a corriger
 		lang = data;
 	});
 	printChat(lang.endInit, settings.version);
@@ -21,11 +21,19 @@ function init() {
 
 function printChat(txt) {
 	for (var i = arguments.length - 2; i >= 0; i--) {
-		txt = txt.split("%" + i);
+		txt = txt.split("$var" + i);
 		txt[0] = txt[0] + arguments[i + 1];
 		txt = txt.join('');
 	}
-	API.sendChat("/em " + txt);
+	if (txt.length > 246) {
+		var x = txt.length - 246;
+		throw "string is too long, please remove " + x + " letters";
+	}
+	if (settings.me === false) {
+		API.sendChat(txt);
+	} else {
+		API.sendChat("/em" + txt);
+	}
 }
 
 /*var BOTAPI.CHATCOMMAND = new CustomEvent(

@@ -19,9 +19,10 @@ function init() {
 	printChat(lang.endInit, settings.version);
 }
 
-function printChat(txt /*, var0, var1, ...*/) {
+function printChat(txt /*, var0, var1, ...*/
+) {
 	for (var i = arguments.length - 1; i > 0; i--) {
-		txt = txt.split("$var" + (i-1));
+		txt = txt.split("$var" + (i - 1));
 		if (txt.length === 2) {
 			txt[0] = txt[0] + arguments[i];
 		}

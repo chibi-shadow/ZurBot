@@ -2,7 +2,7 @@
 	"endInit": "BONSWAG ZurBot version $var0 running",
 	"ban": "$var0 used ban on $var1 for $var2",
 	"kick": "$var0 used kick on $var1 for $var2",
-	"eta": "$var0 you will reach the booth in approximately $var1",
+	"eta": "$var0 will reach the booth in approximately $var1",
 	"link": "$var0 link to the current song: $var1",
 	"move": "$var0 used move"
 }

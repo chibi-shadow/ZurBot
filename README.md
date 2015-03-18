@@ -4,13 +4,13 @@
 ##A lil' bot for Plug.dj [WIP]
 
 
-okay this bot is in an early development stage you can not use it at the moment. 
-BUT you can participate to the development:
+Okay, so this bot is in an early development stage, you can not use it at the moment. 
+But YOU can participate to the development:
  - you can translate the bot from English to any other language 
- - you can correct my English (cause obviously it's not my mother tongue)
- - you can also help me to write functions for the bot BUT please contact me before, I'll answer if I need help
+ - you can correct my English (cause obviously it's not my main language)
+ - you can also help me to write functions for the bot BUT please contact me if you want to, I'll tell you if I need help
  
-for any of this work you need to fork this project and when you've done you're changes just make a pull request 
+To work on this project with me you need to fork it and when you're done with your work just make a pull request 
 
 
 ###if you want to help to traduce the bot

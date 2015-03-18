@@ -1,0 +1,8 @@
+{
+	"endInit": "BONSWAG ZurBot version $var0 démarré",
+	"ban": "$var0 a banni $var1 pendant $var2",
+	"kick": "$var0 a expulsé $var1 pendant $var2",
+	"eta": "$var0 vous atteindrez les platines dans $var1",
+	"link": "$var0 lien vers la musique actuelle: $var1",
+	"move": "$var0 a utilisé move"
+}

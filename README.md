@@ -10,49 +10,46 @@ But YOU can participate to the development:
  - you can correct my English (cause obviously it's not my main language)
  - you can also help me to write functions for the bot BUT please contact me if you want to, I'll tell you if I need help
  
-To work on this project with me you need to fork it and when you're done with your work just make a pull request 
+To work on this project with me you need to fork it and when you're done with your work just make a pull request.
 
 
-###if you want to help to traduce the bot
+###If you want to help to traduce the bot
 
 
-the langs objects are in the "lang" directory you can create a new JSON object in this directory or you can modify an existing one
+The langs objects (languages files) are in the "lang" directory, you can create a new JSON object in this directory or you can modify an existing one.
 
-here is a detailed description for all variables:	
+Here is a detailed description for all the variables:	
 - **endInit:**
- - "$var0" = the bot version
+ - "$var0" = bot version
 
 - **ban:**
- - "$var0" = the user who used the command
- - "$var1" = the banned user
- - "$var2" = the ban time 
+ - "$var0" = user who used the command
+ - "$var1" = banned user
+ - "$var2" = ban time
 
 - **kick:**
- - "$var0" = the user who used the command 
- - "$var1" = the kicked user
- - "$var2" = the kick time
+ - "$var0" = user who used the command 
+ - "$var1" = kicked user
+ - "$var2" = kick time
 
 - **eta:**
- - "$var0" = the user who used the command
- - "$var1" = the time
+ - "$var0" = user who used the command
+ - "$var1" = time remaining before becomming DJ
 
 - **link:**
- - "$var0" = the user who used the command
- - "$var1" = the link
+ - "$var0" = user who used the command
+ - "$var1" = link of the current song
 
 - **move:**
- - "$var0" = the user who used the command
+ - "$var0" = user who used the command
 	
-you can also correct any string which is not traduced in the .js file or this readme file if you find something wrong 
+You can also correct anything which is not correctly translated in the .js file or this readme. 
 
 
-###if you want to help me to write some functions
-
-
-read the source code if you find a comment which say:
+###If you want to help me write some functions, read the source code, and if you find a comment which say:
 
 ```javascript
 //junk line
 ```
 
-it mean that I don't know how to write this line properly (so you can send a pull request with your alternatives)
+it means that I don't know how to write this line properly (so you can send a pull request with your alternatives).

@@ -1,3 +1,5 @@
+background-image: url(http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg)
+
 # ZurBot
 
 

@@ -39,6 +39,8 @@ here is a detailed description for all variables:
 - **move:**
  - "$var0" = the user who used the command
 	
+you can also correct any string which is not traduced in the .js file or this readme file if you find something wrong 
+
 #####if you want to help me to write some functions
 
 read the source code if you find a comment which say:
